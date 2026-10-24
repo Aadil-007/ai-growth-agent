@@ -1,0 +1,28 @@
+# Add or remove sources here. No code changes needed.
+# Tip: open each URL in your browser first. A working RSS feed shows XML text.
+sources:
+  - name: Hacker News (AI)
+    url: "https://hnrss.org/newest?q=AI+OR+LLM&points=50"
+    region: global
+    enabled: true
+
+  - name: arXiv cs.AI
+    url: "https://rss.arxiv.org/rss/cs.AI"
+    region: global
+    enabled: true
+
+  - name: Hugging Face Blog
+    url: "https://huggingface.co/blog/feed.xml"
+    region: global
+    enabled: true
+
+  # UAE sources: find each site's RSS link, verify it opens, then enable it.
+  - name: Middle East AI News
+    url: "REPLACE_WITH_VERIFIED_FEED_URL"
+    region: uae
+    enabled: false
+
+  - name: Gulf News Technology
+    url: "REPLACE_WITH_VERIFIED_FEED_URL"
+    region: uae
+    enabled: false
